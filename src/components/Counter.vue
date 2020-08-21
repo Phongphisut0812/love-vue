@@ -6,10 +6,8 @@
       <button v-on:click="$wow" class="button4"> <i class="fas fa-surprise fa-2x"></i> </button>
       <button v-on:click="$sad" class="button4"> <i class="fas fa-frown fa-2x"></i> </button>
       <button v-on:click="$angry" class="button4"> <i class="fas fa-angry fa-2x"></i> </button>
-     
     </div>
 </template>
-
 <script>
 export default {
  data: function () {
@@ -21,10 +19,8 @@ export default {
         sad:0,
         angry:0,
       counter: 0,
-      
     };
   },
-  
    methods: {
     $like: function () {
       this.like = 1;
@@ -65,12 +61,9 @@ export default {
   },
 }
 </script>
-
 <style>
 .button4 {
   border-radius: 12px;
   background-color: cadetblue;
-  
   }
-
 </style>

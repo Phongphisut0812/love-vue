@@ -3,8 +3,6 @@
     <div>
       <carousel />
     </div>
-  
-
     <div class="row mt-5">
       <div class="col-md-6">
         <div>
@@ -16,8 +14,6 @@
         <h1>Total = {{total}}</h1>
       </div>
     </div>
-    
-
     <div class="row mt-4">
       <div class="col-md-6">
         <div>
@@ -29,8 +25,6 @@
         <h1>Total = {{totl}}</h1>
       </div>
     </div>
-    
-
     <div class="row mt-4">
       <div class="col-md-6">
         <div>
@@ -42,14 +36,11 @@
         <h1>Total = {{tota}}</h1>
       </div>
     </div>
-
-
     <footer class="footer mt-5">
       <strong>&copy; 2014-2019 Phongphisut</strong>
     </footer>
   </div>
 </template>
-
 <script>
 import Counter from "./components/Counter";
 import carousel from "./components/carousel";
@@ -79,7 +70,6 @@ export default {
   },
 };
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -87,14 +77,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  
 }
 .a {
   margin: auto;
   margin-left: auto;
   margin-right: auto;
 }
-
 .img-circle {
   border-radius: 9%;
 }
